@@ -18,7 +18,7 @@ return response.json();
 
 const nombreCiudad = data.name
 const temperatura = (data.main.temp - 273.15).toFixed(2); // Convertir Kelvin a Celsius
-const descripcion = data.weather[0].descripcion;
+const descripcion = data.weather[0].description;
 
 //emoji para temperatura y tiempo
 const emoji = '<i class="fa-solid fa-temperature-three-quarters"></i>';
